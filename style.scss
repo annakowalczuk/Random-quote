@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #55ACEE;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    // box-sizing: border-box;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border-radius: 5px;
+    border-color: #fff;
+    border-style: none;
+    border-width: 1px;
+    box-shadow: 1px 1px 5px;
+    min-width: 200px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 12px;
+    min-height: 27px;
+}
+
+a {
+    @extend button;
+    text-decoration: none;
+
+}
