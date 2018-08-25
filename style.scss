@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#55ACEE;
+    background-color: #55ACEE;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: #fff;
@@ -12,13 +12,14 @@ main {
     max-width: 400px;
     margin: 0 auto;
 }
+
 button {
-    background-color: inherit;
-    color: inherit;
-    border{
+    background-color: #55ACEE;
+    color: #fff;
+    border {
         width: 1px;
         color: #fff;
-    };
+    }
     border-style: none;
     border-radius: 5px;
     box-shadow: 1px 1px 5px;
@@ -27,6 +28,11 @@ button {
     line-height: 30px;
     font-size: 12px;
     margin: 10px;
+    &:hover {
+        background-color: #fff;
+        color: #55ACEE;
+        cursor: pointer;
+    }
 }
 
 a {
@@ -38,4 +44,10 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.box {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
