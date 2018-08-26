@@ -34,6 +34,11 @@ button:hover, a:hover {
   color: #55ACEE;
   cursor: pointer;
 }
+button:disabled, a:disabled {
+  background-color: #ccc;
+  color: #666666;
+  pointer-events: none;
+}
 
 a {
   text-decoration: none;

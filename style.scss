@@ -33,6 +33,11 @@ button {
         color: #55ACEE;
         cursor: pointer;
     }
+    &:disabled {
+		background-color: #ccc;
+        color: rgb(102, 102, 102);
+		pointer-events: none;
+	}
 }
 
 a {
